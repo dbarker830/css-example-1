@@ -1,0 +1,32 @@
+h1 {
+    color: white;
+    background-color: gray;
+}
+
+#Clients {
+    font-family:'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Clients td,
+#Clients th {
+    border: 1pm solid red;
+    padding: 8px;
+}
+
+#Clients tr:nth-child(even) {
+    background-color:gray;
+}
+
+#Clients tr:hover {
+    background-color:gray
+}
+
+#Clients th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:red;
+    color: black;
+}
